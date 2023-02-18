@@ -85,14 +85,14 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # DATABASES = {
 #     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'), conn_max_age=600),
 # }
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blog',
-        'USER': 'blog',
-        'PASSWORD': '12345',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'blog',
+#         'USER': 'blog',
+#         'PASSWORD': '12345',
+#     }
+# }
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
