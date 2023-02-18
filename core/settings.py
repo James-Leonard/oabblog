@@ -29,7 +29,8 @@ SECRET_KEY = 'django-insecure-io99moo@9quzo5h0y3v^cw*ltf7o&gxopj+d07t3^-289hy^dd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*','oabblog-production.up.railway.app', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://oabblog-production.up.railway.app']
 
 #...
 SITE_ID = 1
