@@ -32,9 +32,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['*','oabblog-production.up.railway.app', '127.0.0.1']
 CSRF_TRUSTED_ORIGINS = ['https://oabblog-production.up.railway.app']
 
-#...
-SITE_ID = 1
-
 # Application definition
 
 INSTALLED_APPS = [
